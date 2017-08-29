@@ -6,8 +6,8 @@
 - `cd`: stands for Change Directory -- this is how you move around
   - note: "." is a shortcut for your current folder, and ".." is a shortcut for "up one level"
 
-  so `cd outerfolder/innerfolder` will take you to "innerfolder"
-  typing `pwd` at this point would give you `outerfolder/innerfolder`
+  so `cd outerfolder/innerfolder` will take you to "innerfolder"  
+  typing `pwd` at this point would give you `outerfolder/innerfolder`  
   if you did `cd ..`, you'd get to "outerfolder"
 
 ### some we didn't go use in class but that are useful:
