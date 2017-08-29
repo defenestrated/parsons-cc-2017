@@ -1,7 +1,7 @@
 # week 1
 ---
 ## links to things you'll need:
-- [processing](www.processing.org)
+- [processing](http://www.processing.org)
 - [sublime text](https://www.sublimetext.com/)
 - [chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [github](https://github.com/)
