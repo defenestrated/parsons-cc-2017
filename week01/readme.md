@@ -10,7 +10,7 @@
   typing `pwd` at this point would give you `outerfolder/innerfolder`  
   if you did `cd ..`, you'd get to "outerfolder"
 
-### some we didn't go use in class but that are useful:
+### some we didn't use in class but that are useful:
 - `ls`: lists everything in whatever folder you're in
 - `tree`: shows you a nicely-laid-out directory hierarchy
 - `cp`: stands for "CoPy", you can use it to copy files or whole folders
