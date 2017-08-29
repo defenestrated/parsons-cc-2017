@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>readme.html</title>
+
+</head>
+
+<body>
+
+<h1>week 1</h1>
+
+<h2>general terminal commands:</h2>
+
+<ul>
+<li>at any point, you can do <strong>control+c</strong> to cancel whatever's happening</li>
+<li><code>pwd</code>: stands for Print Working Directory -- shows you where you are now</li>
+<li><p><code>cd</code>: stands for Change Directory -- this is how you move around</p>
+
+<ul>
+<li>note: "." is a shortcut for your current folder, and ".." is a shortcut for "up one level"</li>
+</ul>
+
+<p><p>so <code>cd outerfolder/innerfolder</code> will take you to "innerfolder"
+typing <code>pwd</code> at this point would give you <code>outerfolder/innerfolder</code>
+if you did <code>cd ..</code>, you'd get to "outerfolder"</p></li>
+</ul></p>
+
+<h3>some we didn't go use in class but that are useful:</h3>
+
+<ul>
+<li><code>ls</code>: lists everything in whatever folder you're in</li>
+<li><code>tree</code>: shows you a nicely-laid-out directory hierarchy</li>
+<li><code>cp</code>: stands for "CoPy", you can use it to copy files or whole folders</li>
+<li><code>mv</code>: stands for "MoVe", you can use it to move or rename files / folders</li>
+</ul>
+
+<h2>github-specific commands:</h2>
+
+<ul>
+<li><code>git status</code>: shows you what's going on at this moment</li>
+<li><code>git add</code>: adds file(s) to your "commit" -- tells git which files you're ready to push</li>
+<li><code>git commit</code>: commits your changes (note that you need a commit message, as described below)</li>
+<li><code>git push</code>: pushes your changes to the remote repository (the one you set up on github.com)</li>
+</ul>
+
+<h3>workflow for adding, committing, and pushing changes:</h3>
+
+<ol>
+<li>create whatever files you want within your repository</li>
+<li><p>in the terminal, navigate to your repository by doing <code>cd name-of-your-repository</code></p>
+
+<p>remember that you can type <code>cd</code> (with a space after "cd") and then drag the folder onto terminal to complete the path</p></li>
+<li><p><strong>add</strong> your changes using <code>git add ______</code></p>
+
+<p>note that if you have more than one file to add, there are ways of doing it in bulk:</p>
+
+<ul>
+<li><code>git add --all</code> adds any new changes in the whole repository</li>
+<li><code>git add *</code> adds all files within the current folder</li>
+</ul></li>
+<li><p>commit your changes with <code>git commit -m "some message to yourself"</code> -- be clear and concise in your message, i.e. "fixed readme" or "added text file"</p></li>
+<li>push your changes to the web (to your remote repository, to be specific) with <code>git push</code></li>
+</ol>
+
+<h2>links to things you'll need:</h2>
+
+<ul>
+<li><a href="http://www.processing.org">processing</a></li>
+<li><a href="https://www.sublimetext.com/">sublime text</a></li>
+<li><a href="https://www.google.com/chrome/browser/desktop/index.html">chrome</a></li>
+<li><a href="https://github.com/">github</a></li>
+</ul>
+
+<h3>installing github:</h3>
+
+<p>follow <a href="https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md">this tutorial</a></p>
+
+</body>
+</html>
